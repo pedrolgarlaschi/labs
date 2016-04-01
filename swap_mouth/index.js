@@ -1,9 +1,10 @@
 var express = require('express');
 var app = express();
-app.use("/css", express.static(__dirname + '/css'));
+
 app.use("/js", express.static(__dirname + '/js'));
 app.use("/videos", express.static(__dirname + '/videos'));
 app.use("/images", express.static(__dirname + '/www/images'));
+app.use("/css", express.static(__dirname + 'www/css'));
 app.use("/", express.static(__dirname + '/www'));
 
 app.use(function(req, res, next) {
