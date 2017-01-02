@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A53EA23E-AA0F-6F41-BF1F-26F3037760EC}") = "voxel", "Assembly-CSharp-firstpass.csproj", "{06B114B1-E023-C3C0-7C8F-12B85D294187}"
+EndProject
+Project("{A53EA23E-AA0F-6F41-BF1F-26F3037760EC}") = "voxel", "Assembly-CSharp.csproj", "{7910E8F4-AC17-1290-A50D-7F72CAADA710}"
+EndProject
+Project("{A53EA23E-AA0F-6F41-BF1F-26F3037760EC}") = "voxel", "Assembly-CSharp-Editor-firstpass.csproj", "{1063AB42-A107-F8C9-5345-33CD56001A79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B114B1-E023-C3C0-7C8F-12B85D294187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B114B1-E023-C3C0-7C8F-12B85D294187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B114B1-E023-C3C0-7C8F-12B85D294187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B114B1-E023-C3C0-7C8F-12B85D294187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7910E8F4-AC17-1290-A50D-7F72CAADA710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7910E8F4-AC17-1290-A50D-7F72CAADA710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7910E8F4-AC17-1290-A50D-7F72CAADA710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7910E8F4-AC17-1290-A50D-7F72CAADA710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1063AB42-A107-F8C9-5345-33CD56001A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1063AB42-A107-F8C9-5345-33CD56001A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1063AB42-A107-F8C9-5345-33CD56001A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1063AB42-A107-F8C9-5345-33CD56001A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

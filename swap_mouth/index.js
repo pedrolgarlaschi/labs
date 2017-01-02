@@ -25,26 +25,9 @@ var port = process.env.PORT || 3000;
 
 
 var http = require('http').Server(app);
-http.listen(port + 1 , function(){
+http.listen(port  , function(){
   console.log('http: ' , port);
 });
-
-
-var fs = require('fs')
-var https = require('https')
-
-https.createServer({
-  key: fs.readFileSync('server.key'),
-  cert: fs.readFileSync('server.crt'),
-  requestCert: false,
-  rejectUnauthorized: false
-}, app).listen(port , function(){
-
-  console.log('https: ' , port);
-
-});
-
-
 
 
 var videoLoader = new (require(__dirname + '/js/server/videoLoader.js'))();
