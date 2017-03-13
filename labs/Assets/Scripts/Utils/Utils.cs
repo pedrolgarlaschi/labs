@@ -31,6 +31,19 @@ public class Utils : MonoBehaviour {
 	}
 
 
+	public static Vector3 RandomVec(float _min , float _max)
+	{
+		return RandomVec (_min, _max, _min, _max, _min, _max);
+	}
+
+	public static Vector3 RandomVec(float _minX , float _maxX ,  float _minY , float _maxY , float _minZ , float _maxZ)
+	{
+		float x = Random.Range (_minX, _maxX);
+		float y = Random.Range (_minY, _maxY);
+		float z = Random.Range (_minZ, _maxZ);
+
+		return new Vector3 (x,y,z);
+	}
 
 
 	public static T Find<T> (string name) where T : Component
