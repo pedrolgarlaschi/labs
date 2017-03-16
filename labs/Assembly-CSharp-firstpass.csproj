@@ -164,7 +164,7 @@
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Shader\Translucense.shader" />
-     <None Include="Assets\Materials\lab4\Strip.shader" />
+     <None Include="Assets\Materials\Lab4\Strip.shader" />
      <None Include="Assets\Shader\DoubleSidedStandard.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
