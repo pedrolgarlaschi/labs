@@ -68,8 +68,6 @@ public class LineCircle : MonoBehaviour {
 
 	void Update()
 	{
-		
-
 		m_speed += m_accell;
 		transform.position += m_speed;
 

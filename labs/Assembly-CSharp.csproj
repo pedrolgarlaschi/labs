@@ -64,6 +64,10 @@
      <Compile Include="Assets\Scripts\Lab08\Drop.cs" />
      <Compile Include="Assets\Scripts\Lab08\Lab08.cs" />
      <Compile Include="Assets\Scripts\Lab08\LineCircle.cs" />
+     <Compile Include="Assets\Scripts\Lab09\Lab09.cs" />
+     <Compile Include="Assets\Scripts\Lab09\SphereLine.cs" />
+     <Compile Include="Assets\Scripts\Lab10\Lab10.cs" />
+     <Compile Include="Assets\Scripts\Lab10\MousePos.cs" />
      <Compile Include="Assets\Scripts\Utils\Extensions.cs" />
      <Compile Include="Assets\Scripts\Utils\RotateCam.cs" />
      <Compile Include="Assets\Scripts\Utils\Utils.cs" />
